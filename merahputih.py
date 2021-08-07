@@ -27,7 +27,7 @@ U = '\x1b[1;95m' # UNGU
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
 try:
-	import bs4
+	import requests
 	import sys
 	import os
 	import subprocess
